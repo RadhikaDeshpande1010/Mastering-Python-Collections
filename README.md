@@ -63,6 +63,3 @@ Open any notebook from the structured folders to start learning.
 This repository is designed for step-by-step learning of Python’s most widely used data structures.
 By the end, you’ll have hands-on experience, problem-solving skills, and confidence in handling lists, sets, and strings effectively in Python.
 
-  ```pgsql
-    👉 Do you also want me to add **badges** (like Python version, Jupyter, difficulty level) at the top for a professional look?
-   ```
