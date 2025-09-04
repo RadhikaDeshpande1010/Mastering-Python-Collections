@@ -372,6 +372,3 @@ Output:
 
 By the end of this notebook, you’ll have a solid grasp of list fundamentals and essential methods that are building blocks for more advanced Python concepts.
 
-```yaml
-Do you also want me to **link this notebook so it opens in Google Colab** (so users can run it online without setting up Jupyter locally)?
-```
