@@ -9,28 +9,27 @@ A structured collection of Jupyter notebooks to **learn, practice, and master** 
 ### 📑 Table of Contents
 
 ### 01 — Foundations
-- [List Fundamentals and Methods](01_foundations/list_fundamentals_and_methods.md)  
-- [String Basics and Core Operations](01_foundations/string_basics_and_core_operations.md)  
-- [Set Operations and Theory](01_foundations/set_operations_and_theory.md)  
+- [List Fundamentals and Methods](SRC/01_foundations/list_fundamentals_and_methods.md)  
+- [String Basics and Core Operations](SRC/01_foundations/string_basics_and_core_operations.md)  
+- [Set Operations and Theory](SRC/01_foundations/set_operations_and_theory.md)  
 
 ### 02 — Intermediate Concepts
-- [String Manipulation Mastery](02_intermediate_concepts/string_manipulation_mastery.md)  
-- [Practical Examples and MCQs](02_intermediate_concepts/practical_examples_and_mcqs.md)  
+- [String Manipulation Mastery](SRC/02_intermediate_concepts/string_manipulation_mastery.md)  
+- [Practical Examples and MCQs](SRC/02_intermediate_concepts/practical_examples_and_mcqs.md)  
 
 ### 03 — Hands-on Practice
-- [List Problem Solving Workshop](03_hands_on_practice/list_problem_solving_workshop.md)  
-- [String Coding Challenges](03_hands_on_practice/string_coding_challenges.md)  
-- [String Operations Bootcamp](03_hands_on_practice/string_operations_bootcamp.md)  
+- [List Problem Solving Workshop](SRC/03_hands_on_practice/list_problem_solving_workshop.md)  
+- [String Coding Challenges](SRC/03_hands_on_practice/string_coding_challenges.md)  
+- [String Operations Bootcamp](SRC/03_hands_on_practice/string_operations_bootcamp.md)  
 
 ### 04 — Advanced Applications
-- [Algorithmic String Problems](04_advanced_applications/algorithmic_string_problems.md)  
-- [Advanced String Algorithms — Part 1](04_advanced_applications/advanced_string_algorithms_part1.md)  
-- [Advanced String Algorithms — Part 2](04_advanced_applications/advanced_string_algorithms_part2.md)  
+- [Algorithmic String Problems](SRC/04_advanced_applications/algorithmic_string_problems.md)  
+- [Advanced String Algorithms — Part 1](SRC/04_advanced_applications/advanced_string_algorithms_part1.md)  
+- [Advanced String Algorithms — Part 2](SRC/04_advanced_applications/advanced_string_algorithms_part2.md)  
 
 ### 05 — Integrated Challenges
-- [Mixed Data Structures Projects](05_integrated_challenges/mixed_data_structures_projects.md)  
-- [Capstone Assessment](05_integrated_challenges/capstone_assessment.md)  
-
+- [Mixed Data Structures Projects](SRC/05_integrated_challenges/mixed_data_structures_projects.md)  
+- [Capstone Assessment](SRC/05_integrated_challenges/capstone_assessment.md)   
 
 ---
 
