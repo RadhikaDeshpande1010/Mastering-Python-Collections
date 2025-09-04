@@ -8,7 +8,7 @@ This notebook provides a hands-on introduction to **Python lists** and their com
 
 ---
 
-<h3> ▶️ How to Run </h3>
+### How to Run
 
 1. **Clone** this repository and open the folder in your editor/terminal.
 2. Start Jupyter Notebook:
@@ -368,7 +368,7 @@ Output:
 
 ---
 
-<h3> ✅ Conclusion </h3>
+### Conclusion
 
 By the end of this notebook, you’ll have a solid grasp of list fundamentals and essential methods that are building blocks for more advanced Python concepts.
 
