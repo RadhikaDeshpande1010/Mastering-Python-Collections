@@ -414,6 +414,7 @@ By working through these exercises, you’ll build confidence in:
 - Writing clean, modular, and Pythonic code that’s easy to maintain
   
 💡 What’s Next?
+
 Take your learning further by modifying each program to:
 - Accept dynamic user input
 - Handle edge cases and unexpected scenarios
