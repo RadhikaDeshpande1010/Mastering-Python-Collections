@@ -750,6 +750,6 @@ Output:
 pYthON
 ```
 ---
-### Conclusion
+### ✅Conclusion
 
 By the end of this notebook, you’ll have a solid grasp of strings fundamentals and essential methods that are building blocks for more advanced Python concepts.
