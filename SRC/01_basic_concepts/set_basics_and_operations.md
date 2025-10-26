@@ -20,7 +20,7 @@ This notebook provides a hands-on introduction to **Python sets** and their comm
 > Tip: You can also copy any solution function into your notebook/REPL to experiment quickly.
 
 ---
-### Q1. Create a list and print it.
+### Q1. Print Unique Elements from a List Using Set.
 
 **Input:**
 ```python
@@ -31,13 +31,19 @@ ls = [10,20,30,10,10,40,30,20,40,50]
 `[10, 20, 30, 10, 10, 40, 30, 20, 40, 50]`
 
 ```python
-# print_list.py
+# print_unique_element.py
 
-ls = [10,20,30,10,10,40,30,20,40,50]
-print(ls)
+# list with duplicate elements
+ls = [10, 20, 30, 10, 10, 40, 30, 20, 40, 50]
+
+# convert list to set to remove duplicates
+unique_elements = set(ls)
+
+# print unique elements
+print(unique_elements)
 
 Output:
-[10, 20, 30, 10, 10, 40, 30, 20, 40, 50]
+{40, 10, 50, 20, 30}
 ```
 
 ---
