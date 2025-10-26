@@ -804,9 +804,11 @@ Output:
 
 This practice file brought together key string manipulation techniques—from simple tasks like reversing and formatting to more advanced operations such as encoding, filtering, and pattern-based logic. Each exercise was designed to reinforce practical skills and deepen your understanding of how Python handles textual data.
 By completing these challenges, you’ve strengthened your ability to:
-- 🔹 Work confidently with strings, lists, and nested structures
-- 🔹 Apply Pythonic logic using built-in functions and list comprehensions
-- 🔹 Tackle real-world and interview-style problems with clarity and precision
+- Work confidently with strings, lists, and nested structures
+- Apply Pythonic logic using built-in functions and list comprehensions
+- Tackle real-world and interview-style problems with clarity and precision
+  
 🚀 What’s Next?
+
 Keep building momentum by diving into the next module in the Intermediate Concepts track:
-Set Manipulation and Applications — where you’ll explore deduplication, membership testing, and efficient data filtering using Python sets
+Set Manipulation and Applications — where you’ll explore deduplication, membership testing, and efficient data filtering using Python sets.
