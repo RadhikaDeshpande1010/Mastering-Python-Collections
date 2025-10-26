@@ -2,7 +2,7 @@
 
 <h2>String Operations and Practice</h2>
 
-This notebook This module — String Operations and Practice — is part of the Intermediate Concepts series and focuses on strengthening Python string manipulation skills through hands-on examples.
+This module — String Operations and Practice — is part of the Intermediate Concepts series and focuses on strengthening Python string manipulation skills through hands-on examples.
 
 It contains a curated collection of frequently used string and list operations designed for practical understanding and interview readiness. Each question is self-contained, with clear input–output examples and executable Python code.
 
