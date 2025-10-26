@@ -45,7 +45,6 @@ Practical examples relevant to real-world use cases
 
 ---
 
-
 ### Q1. Reverse a string
 **Input:** "hello"  
 **Output:** "olleh"
