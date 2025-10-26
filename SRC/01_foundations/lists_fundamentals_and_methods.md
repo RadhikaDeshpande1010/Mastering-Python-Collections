@@ -1,6 +1,6 @@
 <h1><sub><img src="https://github.com/RadhikaDeshpande1010/icon-library/blob/main/python-icon/python-icon.png" alt="Icon" height="27" width="27"></sub> Python Practice — Lists, Sets & Strings </h1>
 
-<h2>List Fundamentals and Methods</h2>
+<h2>Lists Fundamentals and Methods</h2>
 
 This notebook provides a hands-on introduction to **Python lists** and their commonly used methods. It is designed for beginners to build a strong foundation in handling lists through step-by-step examples and exercises.
 
@@ -370,5 +370,5 @@ Output:
 
 ### Conclusion
 
-By the end of this notebook, you’ll have a solid grasp of list fundamentals and essential methods that are building blocks for more advanced Python concepts.
+By the end of this notebook, you’ll have a solid grasp of lists fundamentals and essential methods that are building blocks for more advanced Python concepts.
 
