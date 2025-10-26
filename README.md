@@ -11,7 +11,7 @@ A structured collection of Jupyter notebooks to **learn, practice, and master** 
 ### 01 — Foundations
 - [List Fundamentals and Methods](SRC/01_foundations/list_fundamentals_and_methods.md)  
 - [String Basics and Core Operations](SRC/01_foundations/string_basics_and_core_operations.md)  
-- [Set Operations and Theory](SRC/01_foundations/set_operations_and_theory.md)  
+- [Set Operations and Theory](SRC/01_foundations/sets_operations_and_theory.md)  
 
 ### 02 — Intermediate Concepts
 - [String Manipulation Mastery](SRC/02_intermediate_concepts/string_manipulation_mastery.md)  
