@@ -18,9 +18,7 @@ A structured collection of Jupyter notebooks to **learn, practice, and master** 
 - [String Operations and Practice](SRC/02_intermediate_concepts/string_operations_and_practice.md)  
 
 ### 🚀 03 — Advanced Applications
-- [List Problem Solving Workshop](SRC/03_hands_on_practice/list_problem_solving_workshop.md)  
-- [String Coding Challenges](SRC/03_hands_on_practice/string_coding_challenges.md)  
-- [String Operations Bootcamp](SRC/03_hands_on_practice/string_operations_bootcamp.md)  
+- [Algorithmic Problems on Lists, Sets & Strings](SRC/03_advanced_applications/algorithmic_problems_on_lists_sets_and_strings.md)  
 
 ---
 
