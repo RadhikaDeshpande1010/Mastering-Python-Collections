@@ -368,7 +368,7 @@ Output:
 
 ---
 
-### Conclusion
+### ✅ Conclusion
 
 By the end of this notebook, you’ll have a solid grasp of lists fundamentals and essential methods that are building blocks for more advanced Python concepts.
 
