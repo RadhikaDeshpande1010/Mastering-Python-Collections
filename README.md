@@ -9,7 +9,7 @@ A structured collection of Jupyter notebooks to **learn, practice, and master** 
 ### 📑 Table of Contents
 
 ### 01 — Foundations
-- [Lists Fundamentals and Methods](SRC/01_Foundations/lists_fundamentals_and_methods.md)  
+- [Lists Fundamentals and Methods](SRC/01_—_Basic_Concepts/lists_fundamentals_and_methods.md)  
 - [String Basics and Core Operations](SRC/01_Foundations/string_basics_and_core_operations.md)  
 - [Set Operations and Theory](SRC/01_Foundations/sets_operations_and_theory.md)  
 
