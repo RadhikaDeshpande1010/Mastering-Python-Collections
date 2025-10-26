@@ -51,26 +51,35 @@ Each exercise includes step-by-step examples with clear input–output demonstra
 ## List Operations
 
 ### 1. Count Highest Occurrence in List
+
 ```python
-# Find elements with maximum occurrence count
+# Input: [1,2,3,2,4,3,5,4,6,5,2,2,2,3,3,3]
+# Ouput: 2, 3
+
 list1 = [1,2,3,2,4,3,5,4,6,5,2,2,2,3,3,3]
 list2 = []
 count_list = []
 
+# Collect unique elements in list2:
 for i in list1:
     if i not in list2:
         list2.append(i)
-
+# Count occurrences of each unique element:
 for k in list2:
     count_list.append(list1.count(k))
 
+# Find the maximum count: 5
 max_value = max(count_list)
+
+# Print elements with max count (i.e., appearing most times):
 index = 0
 for k in count_list:
     if k == max_value:
         print(list2[index])
     index = index + 1
-# Output: 2, 3
+
+Output:
+2, 3
 ```
 
 ### 2. Reverse a List
