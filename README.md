@@ -15,21 +15,12 @@ A structured collection of Jupyter notebooks to **learn, practice, and master** 
   
 ### ⚙️ 02 — Intermediate Concepts
 - [List Manipulation and Comprehensions](SRC/02_intermediate_concepts/list_manipulation_and_comprehensions.md)  
-- [Practical Examples and MCQs](SRC/02_Intermediate_Concepts/practical_examples_and_mcqs.md)  
+- [String Operations and Practice](SRC/02_intermediate_concepts/string_operations_and_practice.md)  
 
-### 03 — Hands-on Practice
+### 🚀 03 — Advanced Applications
 - [List Problem Solving Workshop](SRC/03_hands_on_practice/list_problem_solving_workshop.md)  
 - [String Coding Challenges](SRC/03_hands_on_practice/string_coding_challenges.md)  
 - [String Operations Bootcamp](SRC/03_hands_on_practice/string_operations_bootcamp.md)  
-
-### 04 — Advanced Applications
-- [Algorithmic String Problems](SRC/04_advanced_applications/algorithmic_string_problems.md)  
-- [Advanced String Algorithms — Part 1](SRC/04_advanced_applications/advanced_string_algorithms_part1.md)  
-- [Advanced String Algorithms — Part 2](SRC/04_advanced_applications/advanced_string_algorithms_part2.md)  
-
-### 05 — Integrated Challenges
-- [Mixed Data Structures Projects](SRC/05_integrated_challenges/mixed_data_structures_projects.md)  
-- [Capstone Assessment](SRC/05_integrated_challenges/capstone_assessment.md)   
 
 ---
 
