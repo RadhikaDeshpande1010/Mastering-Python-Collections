@@ -11,9 +11,9 @@ This notebook provides a hands-on introduction to List Manipulation and Comprehe
 ### 🔍 Introduction to List Manipulation and Comprehensions in Python
 In Python, lists are one of the most versatile and widely used data structures—perfect for storing sequences of items, whether numbers, strings, or complex objects. Efficient handling of lists is essential for writing clean, readable, and performant code.
 
-**List manipulation** refers to the various operations we can perform on lists, such as adding, removing, slicing, filtering, and transforming elements. These techniques form the backbone of data wrangling and algorithmic logic in Python applications.
+- **List manipulation** refers to the various operations we can perform on lists, such as adding, removing, slicing, filtering, and transforming elements. These techniques form the backbone of data wrangling and algorithmic logic in Python applications.
 
-**List comprehensions**, on the other hand, offer a concise and expressive way to construct new lists by iterating over existing ones. They combine looping and conditional logic into a single elegant line, making your code more Pythonic and often more efficient.
+- **List comprehensions**, on the other hand, offer a concise and expressive way to construct new lists by iterating over existing ones. They combine looping and conditional logic into a single elegant line, making your code more Pythonic and often more efficient.
 
 Whether you're cleaning datasets, transforming inputs, or building dynamic structures, mastering list manipulation and comprehensions will elevate your Python skills and streamline your workflows.
 
