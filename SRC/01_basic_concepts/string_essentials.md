@@ -525,6 +525,231 @@ Output:
 4
 ```
 
+---
+
+### Q25. Print each character of a string.
+**Input:** str1 = "cat"  
+**Output:**  
+c  
+a  
+t  
+```python
+# print_each_character.py
+str1 = "cat"
+for i in str1:
+    print(i)
+
+Output:
+c
+a
+t
+```
+---
+
+### Q26. Concatenate two strings.
+**Input:** hello, world  
+**Output:** helloworld  
+```python
+# concatenate_strings.py
+str1 = "hello, world"
+str2 = ""
+list1 = str1.split(",")
+for i in list1:
+    str1 = i.strip()
+    str2 = str2 + str1
+print(str2)
+
+Output:
+helloworld
+```
+---
+
+### Q27. Get the first character of a string.
+**Input:** python  
+**Output:** p  
+```python
+# first_character.py
+str1 = "python"
+print(str1[0])
+
+Output:
+p
+```
+---
+
+### Q28. Get the last character of a string.
+**Input:** banana  
+**Output:** a  
+```python
+# last_character.py
+str1 = "banana"
+print(str1[-1])
+
+Output:
+a
+```
+---
+
+### Q29. Convert string to uppercase.
+**Input:** apple  
+**Output:** APPLE  
+```python
+# string_uppercase.py
+str1 = "apple"
+res = str1.upper()
+print(res)
+
+Output:
+APPLE
+```
+---
+
+### Q30. Convert string to lowercase.
+**Input:** PYTHON  
+**Output:** python  
+```python
+# string_lowercase.py
+str1 = "PYTHON"
+res = str1.lower()
+print(res)
+
+Output:
+python
+```
+---
+
+### Q31. Repeat string n times.
+**Input:** hi, 3  
+**Output:** hihihi  
+```python
+# repeat_string.py
+str1 = "hi"
+rev = str1 * 3
+print(rev)
+
+Output:
+hihihi
+```
+---
+
+### Q32. Find position of a character.
+**Input:** ballon, character = l  
+**Output:** 2  
+```python
+# find_character_position.py
+str1 = "ballon"
+str2 = "l"
+res1 = str1.index(str2)
+print(res1)
+
+Output:
+2
+```
+---
+
+### Q33. Check if a word exists in a string.
+**Input:** "I love Python", word = Python  
+**Output:** Yes  
+```python
+# word_exists_in_string.py
+str1 = "I love Python"
+str2 = "Python"
+res = str1.find(str2)
+print(res)
+
+Output:
+7
+```
+---
+
+### Q34. Find the length of a string.
+**Input:** str1 = "Hello"  
+**Output:** 5  
+```python
+# string_length.py
+str1 = "Hello"
+res = len(str1)
+print(res)
+
+Output:
+5
+```
+---
+
+### Q35. Replace a character in a string.
+**Input:** "banana"  
+**Output:** "b@n@n@"  
+```python
+# replace_character.py
+str1 = "banana"
+res = str1.replace("a","@")
+print(res)
+
+Output:
+b@n@n@
+```
+---
+
+### Q36. Count number of words in a string.
+**Input:** "Python is a powerful language"  
+**Output:** 5  
+```python
+# count_words.py
+str1 = "Python is a powerful language"
+str2 = str1.split(" ")
+print(len(str2))
+
+Output:
+5
+```
+---
+
+### Q37. Check if a string contains only digits.
+**Input:** "12345"  
+**Output:** True  
+```python
+# string_isdigit.py
+str1 = "12345"
+res = str1.isdigit()
+print(res)
+
+Output:
+True
+```
+---
+
+### Q38. Remove all spaces from a string.
+**Input:** "Hello World"  
+**Output:** "HelloWorld"  
+```python
+# remove_spaces.py
+str1 = "Hello World"
+res1 = str1.replace(" ","")
+print(res1)
+
+Output:
+HelloWorld
+```
+---
+
+### Q39. Swap case of a string.
+**Input:** "PyTHon"  
+**Output:** "pYthON"  
+```python
+# swap_case.py
+str1 = "PyTHon"
+str2 = ""
+for i in str1:
+    if i.isupper():
+        str2 += i.lower()
+    else:
+        str2 += i.upper()
+print(str2)
+
+Output:
+pYthON
+```
+---
 ### Conclusion
 
 By the end of this notebook, you’ll have a solid grasp of strings fundamentals and essential methods that are building blocks for more advanced Python concepts.
