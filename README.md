@@ -1,4 +1,4 @@
-<h2><sub><img src="https://github.com/RadhikaDeshpande1010/icon-library/blob/main/python-icon/python-icon.png" height="25" width="25"></sub> Python Practice — Lists, Sets & Strings </h2>
+<h2><sub><img src="https://github.com/RadhikaDeshpande1010/icon-library/blob/main/python-icon/python-icon.png" height="25" width="25"></sub> Mastering Python Collections — Lists, Sets, and Strings </h2>
 <img src="https://github.com/RadhikaDeshpande1010/Python-Practice-Lists-Sets-Strings/blob/main/Lists%2C%20Sets%20%26%20Strings.png">
 
 A structured collection of Jupyter notebooks to **learn, practice, and master** Python’s core data structures:  
