@@ -8,25 +8,25 @@ It contains a curated collection of frequently used string and list operations d
 
 💡 Learning Objectives
 
-Strengthen understanding of string handling and transformations
+- Strengthen understanding of string handling and transformations
 
-Practice Pythonic ways to manipulate text data efficiently
+- Practice Pythonic ways to manipulate text data efficiently
 
-Apply loops, conditions, and comprehensions for string logic
+- Apply loops, conditions, and comprehensions for string logic
 
-Develop confidence in solving interview-style coding problems
+- Develop confidence in solving interview-style coding problems
 
 🧩 Structure
 
 This file includes:
 
-Reversal, counting, and search-based string problems
+- Reversal, counting, and search-based string problems
 
-String–list combined operations
+- String–list combined operations
 
-Case conversion and formatting exercises
+- Case conversion and formatting exercises
 
-Practical examples relevant to real-world use cases
+- Practical examples relevant to real-world use cases
 
 > **Python version:** 3.8+
 
