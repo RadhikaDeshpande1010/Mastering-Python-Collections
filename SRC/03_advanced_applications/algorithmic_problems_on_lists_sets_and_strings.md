@@ -563,9 +563,9 @@ nohtyP si nuf
 ```
 
 ### Q29. Write a Python program to replace all vowels in a given string with the * symbol.
-***Input:*** `"Artificial Intelligence"`
+**Input:** `"Artificial Intelligence"`
 
-***Output:*** `"*rt*f*c**l *nt*ll*g*nc*"`
+**Output:** `"*rt*f*c**l *nt*ll*g*nc*"`
 
 ```python
 str1 = "Artificial Intelligence"
@@ -582,159 +582,112 @@ Output:
 *rt*f*c**l *nt*ll*g*nc*
 ```
 
-### 31. Extract Digits Only
+### Q30. Write a Python program to extract only the digits from a given string.
+**Input:** `"Room 24, Floor 7"`
+**Output:** `"247"`
+
 ```python
-# Input: "Room 24, Floor 7"
-# Output: "247"
 str1 = "Room 24, Floor 7"
 string_output = ""
 for ch in str1:
     if ch.isdigit():
         string_output += ch
 print(string_output)
+
+Output:
+247
 ```
 
-### 32. Count Words in Sentence
+### Q31. Write a Python program to count the number of words in a given sentence.
+
+**Input:** "Data Science with Python"
+**Output:** 4
+
 ```python
-# Input: "Data Science with Python"
-# Output: 4
 str1 = "Data Science with Python"
 words = str1.strip().split()
 count_val = len(words)
 print(count_val)
+
+Output:
+4
 ```
 
-### 33. First and Last Character Swap
+Q32. Write a Python program to swap the first and last characters of a given string.
+
+**Input:** `"HELLO"`
+**Output:** `"OELLH"`
+
 ```python
-# Input: "HELLO"
-# Output: "OELLH"
 str1 = "HELLO"
 swapped = str1[-1] + str1[1:-1] + str1[0]
 print(swapped)
+
+Output:
+OELLH
 ```
 
-### 34. Snake Case to Camel Case
+### Q33. Write a Python program to convert a given string from snake_case to camelCase.
+
+**Input:** `"machine_learning_project"`
+**Output:** `"machineLearningProject"`
+
 ```python
-# Input: "machine_learning_project"
-# Output: "machineLearningProject"
 str1 = "machine_learning_project"
 part = str1.split("_")
 string_output = part[0]
 for word in part[1:]:
     string_output += word.capitalize()
 print(string_output)
+
+Output:
+machineLearningProject
 ```
 
-### 35. Remove Spaces from String
+### Q34. Write a Python program to remove all spaces from a given string.
+
+The program should handle leading, trailing, and in-between spaces.
+
+**Input:** `" Hello World "`
+**Output:** `"HelloWorld"`
+
 ```python
-# Input: " Hello World "
-# Output: "HelloWorld"
 str1 = " Hello World "
 string_output = str1.strip()
 cleaned = "".join(string_output.split())
 print(cleaned)
+
+Output:
+HelloWorld
 ```
 
-### 36. Replace First and Last Word
+### Q35. Replace the First and Last Word in a Sentence
+
+**Input:** `"Python makes programming easy"`
+**Output:** `"**** makes programming ****"`
+
 ```python
-# Input: "Python makes programming easy"
-# Output: "**** makes programming ****"
 str1 = "Python makes programming easy"
 words = str1.strip().split()
 words[0] = "****"
 words[-1] = "****"
 string_output = " ".join(words)
 print(string_output)
-```
 
----
-
-## Dictionary Operations
-
-### 37. Find Length of Dictionary
-```python
-# Input: {"a": 1, "b": 2, "c": 3}
-# Output: 3
-input_dict = {"a": 1, "b": 2, "c": 3}
-output = len(input_dict)
-print(output)
-```
-
-### 38. Access Value by Key
-```python
-# Input: {"name": "Alice", "age": 25}, key="age"
-# Output: 25
-input_dict = {"name": "Alice", "age": 25}
-print(input_dict["age"])
-```
-
-### 39. Merge Two Dictionaries
-```python
-# Input: {"a": 1, "b": 2}, {"c": 3, "d": 4}
-# Output: {"a": 1, "b": 2, "c": 3, "d": 4}
-input_dict1 = {"a": 1, "b": 2}
-input_dict2 = {"c": 3, "d": 4}
-input_dict1.update(input_dict2)
-print(input_dict1)
-```
-
-### 40. Find Key with Maximum Value
-```python
-# Input: {"apple": 50, "banana": 100, "orange": 70}
-# Output: "banana"
-input_dict = {"apple": 50, "banana": 100, "orange": 70}
-output = max(input_dict, key=input_dict.get)
-print(output)
-```
-
-### 41. Remove a Key from Dictionary
-```python
-# Input: {"x": 10, "y": 20, "z": 30}, remove "y"
-# Output: {"x": 10, "z": 30}
-input_dict = {"x": 10, "y": 20, "z": 30}
-output = input_dict.pop("y")
-print(input_dict)
+Output:
+**** makes programming ****
 ```
 
 ---
 
 ## Function Exercises
 
-### 42. Calculate Factorial
+### Q36. Write a Python program to count the number of words in a given string.
+
+**Input:** `"Python is fun"`
+**Output:** `3`
+
 ```python
-# Input: factorial(5)
-# Output: 120
-def factorial(n):
-    fact = 1
-    for i in range(1, n+1):
-        fact *= i
-    return fact
-
-output = factorial(5)
-print(output)
-```
-
-### 43. Fibonacci Series
-```python
-# Generate Fibonacci series till n numbers
-# Output for n=7: 0 1 1 2 3 5 8
-first = 0
-second = 1
-n = 7
-
-print(first, second, end=" ")
-
-for i in range(3, n + 1):
-    next_num = first + second
-    print(next_num, end=" ")
-    first = second
-    second = next_num
-```
-
-### 44. Count Words in String
-```python
-# Input: count_words("Python is fun")
-# Output: 3
 def count_words(get_input_string):
     words = get_input_string.strip().split()
     return len(words)
@@ -742,18 +695,26 @@ def count_words(get_input_string):
 text = "Python is fun"
 output = count_words(text)
 print(output)
+
+Output:
+3
 ```
 
-### 45. Square of Numbers in List
+### Q37. Write a Python program to find the square of each number in a given list using the map() function.
+
+**Input:** `[1, 2, 3, 4]`
+**Output:** `[1, 4, 9, 16]`
+
 ```python
-# Input: square_list([1, 2, 3, 4])
-# Output: [1, 4, 9, 16]
 def square_list(n):
     return n * n
 
 input_list = [1, 2, 3, 4]
 output = list(map(square_list, input_list))
 print(output)
+
+Output:
+[1, 4, 9, 16]
 ```
 
 ---
