@@ -88,6 +88,7 @@ Output:
 
 ### Q2. Write a Python program to reverse the elements of a given list using slicing.
 **Input:** `[1, 2, 3, 4, 5]`
+
 **Output:** `[5, 4, 3, 2, 1]`
 
 ```python
@@ -102,6 +103,7 @@ Output:
 
 ### Q3. Write a Python program to find and print the maximum element from a given list using the built-in max() function.
 **Input:** `[10, 25, 3, 99, 47]`
+
 **Output:** `99`
 
 ```python
@@ -116,6 +118,7 @@ Output:
 
 ### Q4. Write a Python program to remove duplicate elements from a list while preserving the original order.
 **Input:** `[1, 2, 2, 3, 4, 4, 5]`
+
 **Output:** `[1, 2, 3, 4, 5]`
 
 ```python
@@ -131,6 +134,7 @@ Output:
 
 ### Q5. Write a Python program to calculate the sum of all elements in a given list using a loop.
 **Input:** `[5, 10, 15, 20]`
+
 **Output:** `50`
 
 ```python
@@ -146,6 +150,7 @@ Output:
 
 ### Q6. Write a Python program to extract and print all even numbers from a given list.
 Input: `[12, 7, 9, 14, 21, 6]`
+
 Output: `[12, 14, 6]`
 
 ```python
@@ -166,7 +171,9 @@ Output:
 
 ### Q7. Write a Python program to check whether a given string is a palindrome or not.
 A palindrome reads the same backward as forward.
+
 **Input:** `"madam"`
+
 **Output:** `True`
 
 ```python
@@ -182,7 +189,9 @@ True
 
 ### Q8. Write a Python program to count the number of vowels in a given string.
 (Consider only lowercase vowels for simplicity.)
+
 **Input:** `"Programming"`
+
 **Output:** `3`
 
 ```python
@@ -200,6 +209,7 @@ Ouput:
 
 ### Q9. Write a Python program to convert a given string into uppercase using the built-in string method .upper().
 **Input:** `"hello world"`
+
 **Output:** `"HELLO WORLD"`
 
 ```python
@@ -213,6 +223,7 @@ HELLO WORLD
 
 ### Q10. Write a Python program to replace all spaces in a given string with hyphens (-) using the .replace() method.
 **Input:** `"Python is fun"`
+
 **Output:** `"Python-is-fun"`
 
 ```python
@@ -230,6 +241,7 @@ Python-is-fun
 
 ### Q11. Write a Python program to count how many words in a given sentence start with a vowel (a, e, i, o, u).
 **Input:** `"Apple is an orange fruit but mango is not"`
+
 **Output:** `4`
 
 ```python
@@ -248,7 +260,9 @@ Output:
 
 ### Q12. Write a Python program to replace all special characters in a given string with the # symbol.
 (Consider alphabets and numbers as valid characters — everything else should be replaced.)
+
 **Input:** `"Hello@World#2025!"`
+
 **Output:** `"Hello#World#2025#"`
 
 ```python
@@ -267,6 +281,7 @@ Hello#World#2025#
 
 ### Q13. Write a Python program to extract and print all digits from a given alphanumeric string.
 **Input:** `"abc123xyz456"`
+
 **Output:** `"123456"`
 
 ```python
@@ -283,6 +298,7 @@ Output:
 
 ### Q14. Write a Python program to count how many times each word appears in a given sentence and store the result in a dictionary.
 **Input:** `"data science is fun and data is power"`
+
 **Output:** `{'data': 2, 'science': 1, 'is': 2, 'fun': 1, 'and': 1, 'power': 1}`
 
 ```python
@@ -303,6 +319,7 @@ Output:
 
 ### Q15. Write a Python program to find and print the first non-repeating (unique) character from a given string.
 **Input:** `"aabbcddeeff"`
+
 **Output:** `"c"`
 
 ```python
@@ -318,7 +335,9 @@ c
 
 ### Q16. Write a Python program to replace spaces with underscores (_) only in the first three words of a given sentence.
 Keep the remaining words separated by spaces.
+
 **Input:** `"Python is awesome and very powerful"`
+
 **Output:** `"Python_is_awesome_and very powerful"`
 
 ```python
@@ -331,7 +350,9 @@ print(first_part + "_" + last_part)
 
 ### Q17. Write a Python program to find and print the longest word in a given sentence.
 If multiple words have the same length, print the first one that appears.
+
 **Input:** `"Artificial Intelligence is revolutionary"`
+
 **Output:** `"revolutionary"`
 
 ```python
@@ -351,6 +372,7 @@ revolutionary
 
 ### Q18. Write a Python program to count how many words in a given sentence end with the letter 'e'.
 **Input:** `"We love code in the evening"`
+
 **Output:** `4`
 
 ```python
@@ -367,6 +389,7 @@ Output:
 
 ### Q19. Write a Python program to remove all numeric digits from a given alphanumeric string and print only the letters.
 **Input:** `"abc123def456"`
+
 **Output:** `"abcdef"`
 
 ```python
@@ -383,6 +406,7 @@ abcdef
 
 ### Q20. Write a Python program to count the occurrences of each character in a given string and store the result in a dictionary.
 **Input:** `"google"`
+
 **Output:** `{'g': 2, 'o': 2, 'l': 1, 'e': 1}`
 
 ```python
@@ -401,6 +425,7 @@ Output:
 
 ### Q21. Write a Python program to remove all vowels (a, e, i, o, u) from a given string and print the result.
 **Input:** `"Programming is exciting"`
+
 **Output:** `"Prgrmmng s xctng"`
 
 ```python
@@ -418,6 +443,7 @@ Prgrmmng s xctng
 
 ### Q22. Write a Python program to reverse the order of words in a given sentence while keeping each word intact.
 **Input:** `"I love Python"`
+
 **Output:** `"Python love I"`
 
 ```python
@@ -433,6 +459,7 @@ Python love I
 
 ### Q23. Write a Python program to remove duplicate characters from a given string while preserving the order of their first appearance.
 **Input:** `"programming"`
+
 **Output:** `"progamin"`
 
 ```python
@@ -449,7 +476,9 @@ progamin
 
 ### Q24. Write a Python program to replace the nth occurrence of a word in a string with a new given word.
 For example, replace the 3rd occurrence of "test" with "exam".
+
 **Input:** `"test test test test", n = 3, replace = "exam"`
+
 **Output:** `"test test exam test"`
 
 ```python
@@ -465,7 +494,9 @@ test test exam test
 ```
 
 ### Q25. Write a Python program to convert a given string into title case, where the first letter of each word is capitalized, and the rest are in lowercase.
+
 **Input:** `"wELCoMe TO PYthon"`
+
 **Output:** `"Welcome To Python"`
 
 ```python
@@ -478,7 +509,9 @@ Welcome To Python
 ```
 
 ### Q26. Write a Python program to swap the case of each character in a given string — converting uppercase letters to lowercase and lowercase letters to uppercase.
+
 **Input:** `"HeLLo WOrLD"`
+
 **Output:** `"hEllO woRld"`
 
 ```python
@@ -499,6 +532,7 @@ hEllO woRld
 
 ### Q27. Write a Python program to mask all the middle digits of a given number string with asterisks (*), keeping only the first two and last two digits visible.
 **Input:** `"9876543210"`
+
 **Output:** `"98******10"`
 
 ```python
@@ -512,6 +546,7 @@ Output:
 
 ### Q28. Write a Python program to reverse each word in a given sentence while keeping the word order unchanged.
 **Input:** `"Python is fun"`
+
 **Output:** `"nohtyP si nuf"`
 
 ```python
@@ -527,10 +562,12 @@ Python:
 nohtyP si nuf
 ```
 
-### Q29. Replace Vowels with *
+### Q29. Write a Python program to replace all vowels in a given string with the * symbol.
+***Input:*** `"Artificial Intelligence"`
+
+***Output:*** `"*rt*f*c**l *nt*ll*g*nc*"`
+
 ```python
-# Input: "Artificial Intelligence"
-# Output: "*rt*f*c**l *nt*ll*g*nc*"
 str1 = "Artificial Intelligence"
 vowels = 'aeiouAEIOU'
 string_output = ''
@@ -540,6 +577,9 @@ for ch in str1:
     else:
         string_output += ch
 print(string_output)
+
+Output:
+*rt*f*c**l *nt*ll*g*nc*
 ```
 
 ### 31. Extract Digits Only
